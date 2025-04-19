@@ -1,4 +1,36 @@
-# //css-first-configuration//
+# 🌐 Portfolio Pessoal – André Nicolas
 
-# Reclamações
-Claramente não está funcionando o dark/light mode, eu consigo puxar e ver partes brancas da pagina puxando forçadamente, isso não pode ser possivel, plmds. E além disso, o formulariozinho não funciona, não use formbuilder, use reactiveforms com formcontrol e formgroup somente, o botão de confimar nunca está disponivel, então o formulario em geral não funciona. As animações não estão funcionando, ou nem sequer existem. Quando eu clico nas sessões da pagina, home, projetos, voce vai seco, eu quero algo fluído, satisfatorio. E sobre os projetos, quais colocar? https://github.com/devAndreNicolas/Bot-Uncisal-Restaurantes  https://github.com/devAndreNicolas/portfolio-andre-nicolas https://github.com/devAndreNicolas/Gerenciamento-Financeiro https://github.com/devAndreNicolas/DoTask e em primeiro coloque um que se chama MSPA- Mapeamento de Dados, que não tem um link pois está numa organização privada, e nem demo ainda, mas é um grande projeto que estou usando Angular, Typescript e Go.  Que imagens colocar? Ora, coloque imagens relacionadas e públicas mesmo ué. Não tenho logo pra nenhum desses projetos, então pode meter uma imagem ai qualquer publica, ou a imagem da linguagem principal utilizada. Substitua os svg por lucide angular, e remova esses innerhtml ou substitua por algo mais seguro.
+Este é meu portfólio pessoal desenvolvido com **Angular 18**, onde apresento meus projetos, habilidades, formas de contato e um pouco sobre mim como desenvolvedor.
+
+## 🚀 Tecnologias Utilizadas
+
+- Angular 19
+- TypeScript
+- TailwindCSS
+- LucideAngular
+
+## 📁 Estrutura do Projeto
+
+A estrutura principal está dividida em:
+
+- `src/components`: Seções principais (sobre, contato, projetos, etc.)
+- `src/shared`: Componentes reutilizáveis (como header, footer, hero)
+- `src/services`: Serviços como scroll e tema
+
+## 🛠️ Como Rodar Localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/devAndreNicolas/portfolio.git
+
+# Acesse a pasta do projeto
+cd portfolio
+
+# Instale as dependências
+npm install
+
+# Rode a aplicação localmente
+ng serve
+
+# Acesse no navegador
+http://localhost:4200
