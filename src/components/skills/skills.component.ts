@@ -142,13 +142,13 @@ export class SkillsComponent {
       name: "Nodejs",
       level: 70,
       iconPath: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
-      categories:[ "tools", "backend" ],
+      categories:[ "backend" ],
     },
     {
       name: "Expressjs",
       level: 70,
       iconPath: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
-      categories:[ "tools", "backend" ],
+      categories:[ "backend" ],
     },
     {
       name: "Java",
