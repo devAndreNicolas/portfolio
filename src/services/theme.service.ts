@@ -1,10 +1,10 @@
-import { Injectable, signal } from "@angular/core"
+import { Injectable, signal } from '@angular/core';
 
 @Injectable({
-  providedIn: "root",
+  providedIn: 'root',
 })
 export class ThemeService {
-  private darkModeKey = "darkMode";
+  private darkModeKey = 'darkMode';
   isDarkMode = signal(false);
 
   constructor() {
@@ -16,19 +16,23 @@ export class ThemeService {
     const savedPreference = localStorage.getItem(this.darkModeKey);
 
     if (savedPreference !== null) {
-      this.setTheme(savedPreference === "true");
+      this.setTheme(savedPreference === 'true');
     } else {
       // Check for system preference
-      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      const prefersDark = window.matchMedia(
+        '(prefers-color-scheme: dark)'
+      ).matches;
       this.setTheme(prefersDark);
     }
 
     // Listen for system preference changes
-    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
-      if (localStorage.getItem(this.darkModeKey) === null) {
-        this.setTheme(e.matches);
-      }
-    })
+    window
+      .matchMedia('(prefers-color-scheme: dark)')
+      .addEventListener('change', (e) => {
+        if (localStorage.getItem(this.darkModeKey) === null) {
+          this.setTheme(e.matches);
+        }
+      });
   }
 
   toggleTheme() {
@@ -40,9 +44,9 @@ export class ThemeService {
     localStorage.setItem(this.darkModeKey, isDark.toString());
 
     if (isDark) {
-      document.documentElement.classList.add("dark");
+      document.documentElement.classList.add('dark');
     } else {
-      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.remove('dark');
     }
   }
 }

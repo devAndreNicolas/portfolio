@@ -34,7 +34,9 @@ interface Skill {
 
         <div class="flex justify-center mb-10">
           <div class="allow-horizontal-scroll">
-            <div class="inline-flex p-1 bg-gray-100 dark:bg-gray-700 rounded-lg min-w-max">
+            <div
+              class="inline-flex p-1 bg-gray-100 dark:bg-gray-700 rounded-lg min-w-max"
+            >
               <button
                 *ngFor="let category of categories"
                 (click)="setActiveCategory(category.value)"
