@@ -120,7 +120,7 @@ import { FormBuilder, type FormGroup, ReactiveFormsModule, Validators } from "@a
                   </div>
                   <div>
                     <h4 class="text-lg font-semibold">Email</h4>
-                    <a href="mailto:{{email}}" class="text-white/80 hover:text-white transition-colors duration-300">{{email}}</a>
+                    <a href="mailto:{{email}}" class="dark:text-white/80 dark:hover:text-white text-black/80 transition-colors duration-300">{{email}}</a>
                   </div>
                 </div>
                 
@@ -133,7 +133,7 @@ import { FormBuilder, type FormGroup, ReactiveFormsModule, Validators } from "@a
                   </div>
                   <div>
                     <h4 class="text-lg font-semibold">Localização</h4>
-                    <p class="text-white/80">Brasil</p>
+                    <p class="dark:text-white/80 text-black/80">Brasil</p>
                   </div>
                 </div>
                 

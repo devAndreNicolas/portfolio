@@ -33,8 +33,14 @@
   .dark ::-webkit-scrollbar-thumb:hover {
     background: #6b7280;
   }
+
+  .allow-horizontal-scroll {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
