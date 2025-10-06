@@ -112,6 +112,27 @@ export class SkillsComponent {
       categories: ['frontend'],
     },
     {
+      name: 'Next',
+      level: 80,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg',
+      categories: ['frontend'],
+    },
+    {
+      name: 'Astro',
+      level: 60,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg',
+      categories: ['frontend'],
+    },
+    {
+      name: 'RxJs',
+      level: 80,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rxjs/rxjs-original.svg',
+      categories: ['frontend'],
+    },
+    {
       name: 'TailwindCSS',
       level: 80,
       iconPath:

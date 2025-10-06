@@ -70,7 +70,7 @@ interface Project {
                           [name]="ExternalLink"
                           class="h-5 w-5"
                         ></lucide-icon>
-                        <span>Demo</span>
+                        <span>Acessar</span>
                       </a>
                     </div>
                   </div>
@@ -141,17 +141,39 @@ export class ProjectsComponent {
   projects: Project[] = [
     {
       id: 1,
-      title: 'MSPA - Projeto em Desenvolvimento...',
+      title: 'MSPA Compass',
       description:
-        'Projeto importante e muito significativo para as empresas, em fase de desenvolvimento.',
+        'Este projeto ambicioso visa implementar a LGPD nas empresas de forma rápida, guiada e intuitiva. Tem como propósito resolver a dor de usuários variados, sendo eles: Especialistas, com conhecimento intermediário e até mesmo os mais leigos.',
       image:
-        'https://www.mspa.com.br/wp-content/uploads/2023/03/MSPA-Logo-horizontal-300dpi.jpg',
-      tags: ['Angular', 'TypeScript', 'Tailwind CSS', 'Golang'],
+        'https://mspa.com.br/wp-content/uploads/2025/10/Logo-MSPA-1.png',
+      tags: ['Design Centrado No Usuário', 'Angular', 'RxJs', 'TypeScript', 'Tailwind CSS', 'Golang', 'Karma', 'Jasmine'],
       githubUrl: 'https://github.com/devAndreNicolas',
-      demoUrl: 'https://www.mspa.com.br/',
+      demoUrl: 'https://compass.mspa.com.br/',
     },
     {
       id: 2,
+      title: 'Simple Regex',
+      description:
+        'Apesar da proposta genérica, o intuito deste projeto é se destacar na Usabilidade. Utilize e entenda expressões regulares de forma rápida, guiada e intuitiva.',
+      image:
+        'https://simple-regex.pages.dev/assets/apple-touch-icon.png',
+      tags: ['SSG', 'SEO', 'Design Centrado No Usuário', 'Angular', 'TypeScript', 'SCSS', 'Karma', 'Jasmine'],
+      githubUrl: 'https://github.com/devAndreNicolas/simple-regex',
+      demoUrl: 'https://simple-regex.pages.dev/',
+    },
+    {
+      id: 3,
+      title: 'IPFarol- Alargando Fronteiras',
+      description:
+        'Este projeto visa arrecadar cotas para um propósito da Igreja Presbiteriana do Farol.',
+      image:
+        'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1WtJEXUFV4G0RwIFRdyPviNeroUhB5Ci76DbSTt0UoRBXNEyZdPd_PUfiWY4xZOHHIfJXKGPMR4iU82DX-ALxAvmVThR2t3EmfVn5ErXi6yrITW2_YITx2wuw_yrjZtzR83v_mkvPe1z1ybCJds1aAwW3Qk1gdx-lcgts5NzhjVt1_wovVyV8BqkR/w1200-h630-p-k-no-nu/IPFarol%20Logomarca.jpg',
+      tags: ['Design Centrado No Usuário', 'Next', 'TypeScript', 'Tailwind CSS'],
+      githubUrl: 'https://github.com/MoisesE2/Termometro-ipf',
+      demoUrl: 'https://ipbfarol.org',
+    },
+    {
+      id: 4,
       title: 'Gerenciamento-Financeiro',
       description:
         'Este projeto é um sistema de gerenciamento financeiro que permite cadastrar pessoas e registrar suas transações financeiras (receitas e despesas).',
@@ -161,17 +183,7 @@ export class ProjectsComponent {
       githubUrl: 'https://github.com/devAndreNicolas/Gerenciamento-Financeiro',
     },
     {
-      id: 3,
-      title: 'DoTask - Em Desenvolvimento...',
-      description:
-        'O DoTask é o gerenciador de tarefas ideal, unindo simplicidade e eficiência.',
-      image:
-        'https://static.vecteezy.com/system/resources/previews/002/531/057/large_2x/task-list-illustration-vector.jpg',
-      tags: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express.js', 'SQLite'],
-      githubUrl: 'https://github.com/devAndreNicolas/DoTask',
-    },
-    {
-      id: 4,
+      id: 5,
       title: 'Analisador de Desempenho de Vendas',
       description:
         'Projeto de análise de dados designado para analisar vendas e sale perfomance.',
@@ -181,7 +193,7 @@ export class ProjectsComponent {
       githubUrl: 'https://github.com/devAndreNicolas/Analise-de-Vendas',
     },
     {
-      id: 5,
+      id: 6,
       title: 'Bot Uncisal Restaurantes',
       description:
         'Este projeto consiste em um bot de Telegram desenvolvido em Node.js que permite aos usuários encontrar restaurantes próximos à UNCISAL (Maceió, Alagoas).',
@@ -191,7 +203,7 @@ export class ProjectsComponent {
       githubUrl: 'https://github.com/devAndreNicolas/Bot-Uncisal-Restaurantes',
     },
     {
-      id: 6,
+      id: 7,
       title: 'AndPlayer',
       description:
         'MP3 Player para músicas locais (armazenadas em pastas dentro do computador).',
