@@ -141,28 +141,50 @@ export class ProjectsComponent {
   projects: Project[] = [
     {
       id: 1,
-      title: 'MSPA Compass',
+      title: 'Compliance - MSPA',
       description:
-        'Este projeto ambicioso visa implementar a LGPD nas empresas de forma rápida, guiada e intuitiva. Tem como propósito resolver a dor de usuários variados, sendo eles: Especialistas, com conhecimento intermediário e até mesmo os mais leigos.',
+        'Plataforma desenvolvida para tornar o acesso à LGPD mais intuitivo e acessível. O portal reúne artigos, guias e materiais de compliance organizados em um layout otimizado para leitura, com modo claro/escuro e modo noturno, sumário automático e mecanismo de busca inteligente. Construído com foco em usabilidade e experiência do usuário, oferece uma navegação muito mais fluida e moderna do que as plataformas governamentais tradicionais.',
       image:
-        'https://mspa.com.br/wp-content/uploads/2025/10/Logo-MSPA-1.png',
-      tags: ['Design Centrado No Usuário', 'Angular', 'RxJs', 'TypeScript', 'Tailwind CSS', 'Golang', 'Karma', 'Jasmine'],
+        'https://compliance.mspa.com.br/favicon.png',
+      tags: ['Astro', 'UX/UI Design', 'Acessibilidade', 'Design Centrado no Usuário', 'Dark Mode', 'SEO', 'JavaScript'],
+      githubUrl: 'https://github.com/devAndreNicolas',
+      demoUrl: 'https://compliance.mspa.com.br/',
+    },
+    {
+      id: 2,
+      title: 'Compass - MSPA',
+      description:
+        'Sistema corporativo que visa implementar a LGPD nas empresas de forma rápida, guiada e acessível a diferentes perfis de usuários. O Compass oferece uma jornada completa de conformidade, com recursos de monitoramento, geração de relatórios e suporte a especialistas e leigos. A arquitetura foi projetada para escalabilidade e experiência contínua, integrando design centrado no usuário com tecnologias modernas.',
+      image:
+        'https://compass.mspa.com.br/logo-mspa.png',
+      tags: ['Angular', 'RxJS', 'TypeScript', 'Tailwind CSS', 'Golang', 'Karma', 'Jasmine', 'Design Centrado no Usuário'],
       githubUrl: 'https://github.com/devAndreNicolas',
       demoUrl: 'https://compass.mspa.com.br/',
     },
     {
-      id: 2,
+      id: 3,
+      title: 'Landing Page - MSPA',
+      description:
+        'Landing page institucional da MSPA, criada com foco em conversão e posicionamento de autoridade digital. O projeto destaca a identidade visual da marca, os serviços e os diferenciais da empresa com uma arquitetura leve e altamente otimizada para SEO e performance. Desenvolvido com Astro, prioriza velocidade, clareza na comunicação e uma experiência visual moderna.',
+      image:
+        'https://mspa.com.br/images/mspa-logo-horizontal.png',
+      tags: ['Astro', 'UX Design', 'Performance', 'SEO', 'Tailwind CSS', 'Design Responsivo', 'Copywriting Estratégico'],
+      githubUrl: 'https://github.com/devAndreNicolas',
+      demoUrl: 'https://mspa.com.br/',
+    },
+    {
+      id: 4,
       title: 'Simple Regex',
       description:
         'Apesar da proposta genérica, o intuito deste projeto é se destacar na Usabilidade. Utilize e entenda expressões regulares de forma rápida, guiada e intuitiva.',
       image:
-        'https://simple-regex.pages.dev/assets/apple-touch-icon.png',
+        'https://regex-simples.com/pt-BR/android-chrome-512x512.png',
       tags: ['SSG', 'SEO', 'Design Centrado No Usuário', 'Angular', 'TypeScript', 'SCSS', 'Karma', 'Jasmine'],
       githubUrl: 'https://github.com/devAndreNicolas/simple-regex',
-      demoUrl: 'https://simple-regex.pages.dev/',
+      demoUrl: 'https://regex-simples.com/',
     },
     {
-      id: 3,
+      id: 5,
       title: 'IPFarol- Alargando Fronteiras',
       description:
         'Este projeto visa arrecadar cotas para um propósito da Igreja Presbiteriana do Farol.',
@@ -173,7 +195,7 @@ export class ProjectsComponent {
       demoUrl: 'https://ipbfarol.org',
     },
     {
-      id: 4,
+      id: 6,
       title: 'Gerenciamento-Financeiro',
       description:
         'Este projeto é um sistema de gerenciamento financeiro que permite cadastrar pessoas e registrar suas transações financeiras (receitas e despesas).',
@@ -183,7 +205,7 @@ export class ProjectsComponent {
       githubUrl: 'https://github.com/devAndreNicolas/Gerenciamento-Financeiro',
     },
     {
-      id: 5,
+      id: 7,
       title: 'Analisador de Desempenho de Vendas',
       description:
         'Projeto de análise de dados designado para analisar vendas e sale perfomance.',
@@ -193,7 +215,7 @@ export class ProjectsComponent {
       githubUrl: 'https://github.com/devAndreNicolas/Analise-de-Vendas',
     },
     {
-      id: 6,
+      id: 8,
       title: 'Bot Uncisal Restaurantes',
       description:
         'Este projeto consiste em um bot de Telegram desenvolvido em Node.js que permite aos usuários encontrar restaurantes próximos à UNCISAL (Maceió, Alagoas).',
@@ -203,7 +225,7 @@ export class ProjectsComponent {
       githubUrl: 'https://github.com/devAndreNicolas/Bot-Uncisal-Restaurantes',
     },
     {
-      id: 7,
+      id: 9,
       title: 'AndPlayer',
       description:
         'MP3 Player para músicas locais (armazenadas em pastas dentro do computador).',

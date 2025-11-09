@@ -100,10 +100,55 @@ export class SkillsComponent {
     { value: 'language', label: 'Linguagens' },
     { value: 'frontend', label: 'Frontend' },
     { value: 'backend', label: 'Backend' },
-    { value: 'tools', label: 'Ferramentas' },
+    { value: 'tools', label: 'Ferramentas & Design' },
   ];
 
   skills: Skill[] = [
+    // 🧠 Linguagens
+    {
+      name: 'Python',
+      level: 85,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg',
+      categories: ['language'],
+    },
+    {
+      name: 'JavaScript',
+      level: 85,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg',
+      categories: ['language'],
+    },
+    {
+      name: 'TypeScript',
+      level: 80,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg',
+      categories: ['language'],
+    },
+    {
+      name: 'Java',
+      level: 70,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg',
+      categories: ['language'],
+    },
+    {
+      name: 'SQL',
+      level: 75,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg',
+      categories: ['language'],
+    },
+    {
+      name: 'Go',
+      level: 50,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg',
+      categories: ['language', 'backend'],
+    },
+
+    // 💻 Frontend
     {
       name: 'Angular',
       level: 80,
@@ -112,24 +157,17 @@ export class SkillsComponent {
       categories: ['frontend'],
     },
     {
-      name: 'Next',
-      level: 80,
+      name: 'HTML5',
+      level: 100,
       iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg',
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
       categories: ['frontend'],
     },
     {
-      name: 'Astro',
-      level: 60,
+      name: 'CSS3',
+      level: 90,
       iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg',
-      categories: ['frontend'],
-    },
-    {
-      name: 'RxJs',
-      level: 80,
-      iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rxjs/rxjs-original.svg',
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
       categories: ['frontend'],
     },
     {
@@ -140,43 +178,88 @@ export class SkillsComponent {
       categories: ['frontend'],
     },
     {
-      name: 'BulmaCSS',
-      level: 80,
-      iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bulma/bulma-plain.svg',
-      categories: ['frontend'],
-    },
-    {
       name: 'Bootstrap',
-      level: 60,
+      level: 75,
       iconPath:
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg',
       categories: ['frontend'],
     },
     {
-      name: 'Json',
-      level: 80,
+      name: 'BulmaCSS',
+      level: 70,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bulma/bulma-plain.svg',
+      categories: ['frontend'],
+    },
+    {
+      name: 'Astro',
+      level: 60,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg',
+      categories: ['frontend'],
+    },
+
+    // ⚙️ Backend
+    {
+      name: 'Node.js',
+      level: 75,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg',
+      categories: ['backend'],
+    },
+    {
+      name: 'Express.js',
+      level: 75,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg',
+      categories: ['backend'],
+    },
+    {
+      name: 'Flask',
+      level: 65,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original-wordmark.svg',
+      categories: ['backend'],
+    },
+    {
+      name: 'SQLite',
+      level: 70,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg',
+      categories: ['backend'],
+    },
+    {
+      name: 'PostgreSQL',
+      level: 70,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg',
+      categories: ['backend'],
+    },
+    // 🧰 Ferramentas
+    {
+      name: 'Git',
+      level: 85,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg',
+      categories: ['tools'],
+    },
+    {
+      name: 'GitHub',
+      level: 85,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg',
+      categories: ['tools'],
+    },
+    {
+      name: 'JSON',
+      level: 100,
       iconPath:
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg',
       categories: ['tools'],
     },
     {
-      name: 'TypeScript',
-      level: 80,
-      iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg',
-      categories: ['language'],
-    },
-    {
-      name: 'Python',
-      level: 80,
-      iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg',
-      categories: ['language'],
-    },
-    {
       name: 'Pandas',
-      level: 80,
+      level: 85,
       iconPath:
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg',
       categories: ['tools'],
@@ -189,80 +272,59 @@ export class SkillsComponent {
       categories: ['tools'],
     },
     {
-      name: 'JavaScript',
-      level: 60,
+      name: 'VSCode',
+      level: 90,
       iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg',
-      categories: ['language', 'backend'],
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg',
+      categories: ['tools'],
     },
     {
-      name: 'Nodejs',
+      name: 'Canva',
       level: 70,
       iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg',
-      categories: ['backend'],
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg',
+      categories: ['tools'],
     },
     {
-      name: 'Expressjs',
+      name: 'Railway',
       level: 70,
-      iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg',
-      categories: ['backend'],
+      iconPath: 'https://railway.app/brand/logo-dark.svg',
+      categories: ['tools'],
     },
     {
-      name: 'Java',
-      level: 70,
+      name: 'Figma',
+      level: 75,
       iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg',
-      categories: ['language'],
-    },
-    {
-      name: 'Go',
-      level: 50,
-      iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg',
-      categories: ['language', 'backend'],
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg',
+      categories: ['tools'],
     },
     {
       name: 'Jasmine',
-      level: 100,
+      level: 75,
       iconPath:
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jasmine/jasmine-original-wordmark.svg',
       categories: ['tools'],
     },
     {
-      name: 'Karma',
-      level: 100,
-      iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/karma/karma-original.svg',
-      categories: ['tools'],
-    },
-    {
       name: 'Jest',
-      level: 60,
+      level: 70,
       iconPath:
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg',
       categories: ['tools'],
     },
     {
       name: 'JUnit',
-      level: 60,
+      level: 70,
       iconPath:
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original-wordmark.svg',
       categories: ['tools'],
     },
+
     {
-      name: 'Figma',
-      level: 70,
-      iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg',
-      categories: ['tools'],
-    },
-    {
-      name: 'Git',
+      name: 'Scrum / Kanban',
       level: 80,
       iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg',
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-plain-wordmark.svg',
       categories: ['tools'],
     },
   ];

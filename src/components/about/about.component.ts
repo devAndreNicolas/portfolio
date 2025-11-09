@@ -21,7 +21,8 @@ import {
           </h2>
           <div class="w-16 h-1 mx-auto bg-blue-600 dark:bg-blue-400 rounded-full mb-6"></div>
           <p class="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Conheça um pouco mais sobre minha jornada, experiência e paixão pelo desenvolvimento web.
+            Engenheiro de UX e Desenvolvedor Front-end, apaixonado por criar
+            experiências digitais intuitivas, acessíveis e de alta performance.
           </p>
         </div>
 
@@ -32,14 +33,23 @@ import {
               <div class="relative bg-white dark:bg-gray-700 p-6 rounded-lg shadow-xl">
                 <div class="prose prose-lg dark:prose-invert max-w-none">
                   <p class="mb-4">
-                    Sou um Desenvolvedor Frontend apaixonado por criar soluções digitais inovadoras e funcionais.
-                    Com experiência em diversas tecnologias web modernas, busco sempre entregar projetos de alta
-                    qualidade.
+                    Sou um <strong>Engenheiro de Experiência do Usuário</strong> e
+                    <strong>Desenvolvedor Front-end</strong> com foco em soluções
+                    escaláveis e centradas nas pessoas. Tenho experiência na construção
+                    de aplicações de alta performance utilizando <strong>Angular</strong>,
+                    <strong>Astro</strong> e <strong>Next.js</strong>, sempre com ênfase em
+                    arquitetura limpa, usabilidade e testes automatizados.
+                  </p>
+                  <p class="mb-4">
+                    Na <strong>MSPA</strong>, liderei a implementação do front-end do
+                    sistema <em>Compass</em> e desenvolvi aplicações como o
+                    <em>Compliance MSPA</em> — um portal moderno de artigos sobre LGPD,
+                    acessível e otimizado para leitura — e a
+                    <em>Landing Page MSPA</em>, projetada para conversão e autoridade da marca.
                   </p>
                   <p>
-                    Minha jornada na programação começou com a curiosidade de entender como as coisas funcionam
-                    por trás das interfaces. Essa curiosidade evoluiu para uma paixão por resolver problemas complexos
-                    através do código.
+                    Acredito que boas experiências nascem da união entre design, engenharia e empatia.
+                    Meu objetivo é transformar interfaces em pontes de valor entre pessoas e tecnologia.
                   </p>
                 </div>
               </div>
@@ -52,7 +62,9 @@ import {
                 <lucide-icon [name]="BookOpen" class="h-8 w-8"></lucide-icon>
               </div>
               <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Formação</h3>
-              <p class="text-gray-600 dark:text-gray-300">Sistemas para Internet</p>
+              <p class="text-gray-600 dark:text-gray-300">
+                Sistemas para Internet — UNCISAL
+              </p>
             </div>
 
             <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -60,7 +72,9 @@ import {
                 <lucide-icon [name]="Briefcase" class="h-8 w-8"></lucide-icon>
               </div>
               <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Experiência</h3>
-              <p class="text-gray-600 dark:text-gray-300">Desenvolvimento Frontend</p>
+              <p class="text-gray-600 dark:text-gray-300">
+                Estagiário Front-end | Engenheiro de UX — MSPA
+              </p>
             </div>
 
             <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -68,7 +82,9 @@ import {
                 <lucide-icon [name]="Lightbulb" class="h-8 w-8"></lucide-icon>
               </div>
               <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Interesses</h3>
-              <p class="text-gray-600 dark:text-gray-300">Web, UI/UX</p>
+              <p class="text-gray-600 dark:text-gray-300">
+                UX Engineering, Arquitetura Front-end, Design Systems, Acessibilidade Web, IA aplicada à UX
+              </p>
             </div>
 
             <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -76,7 +92,7 @@ import {
                 <lucide-icon [name]="MapPin" class="h-8 w-8"></lucide-icon>
               </div>
               <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Localização</h3>
-              <p class="text-gray-600 dark:text-gray-300">Brasil</p>
+              <p class="text-gray-600 dark:text-gray-300">Maceió, Brasil</p>
             </div>
           </div>
         </div>

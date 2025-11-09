@@ -15,6 +15,7 @@ import {
   Linkedin,
   Loader,
 } from 'lucide-angular';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-contact',
@@ -271,7 +272,9 @@ export class ContactComponent {
   submitError = false;
   email = 'devandrenicolas@gmail.com';
 
-  constructor(@Inject(FormBuilder) private fb: FormBuilder) {
+  private formspreeUrl = 'https://formspree.io/f/manawavk';
+
+  constructor(@Inject(FormBuilder) private fb: FormBuilder, @Inject(HttpClient) private http: HttpClient) {
     this.contactForm = this.fb.group({
       name: ['', [Validators.required]],
       email: ['', [Validators.required, Validators.email]],
@@ -289,7 +292,6 @@ export class ContactComponent {
 
   onSubmit() {
     if (this.contactForm.invalid) {
-      // Mark all fields as touched to trigger validation messages
       Object.keys(this.contactForm.controls).forEach((key) => {
         const control = this.contactForm.get(key);
         control?.markAsTouched();
@@ -301,17 +303,21 @@ export class ContactComponent {
     this.submitSuccess = false;
     this.submitError = false;
 
-    // Simulate API call
-    setTimeout(() => {
-      this.isSubmitting = false;
-      this.submitSuccess = true;
-      this.contactForm.reset();
+    this.http.post(this.formspreeUrl, this.contactForm.value).subscribe({
+      next: () => {
+        this.isSubmitting = false;
+        this.submitSuccess = true;
+        this.contactForm.reset();
 
-      // Reset form state
-      Object.keys(this.contactForm.controls).forEach((key) => {
-        const control = this.contactForm.get(key);
-        control?.setErrors(null);
-      });
-    }, 1500);
+        Object.keys(this.contactForm.controls).forEach((key) => {
+          const control = this.contactForm.get(key);
+          control?.setErrors(null);
+        });
+      },
+      error: () => {
+        this.isSubmitting = false;
+        this.submitError = true;
+      },
+    });
   }
 }
