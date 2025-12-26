@@ -140,22 +140,8 @@ export class SkillsComponent {
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg',
       categories: ['language'],
     },
-    {
-      name: 'Go',
-      level: 50,
-      iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg',
-      categories: ['language', 'backend'],
-    },
 
     // 💻 Frontend
-    {
-      name: 'Angular',
-      level: 80,
-      iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg',
-      categories: ['frontend'],
-    },
     {
       name: 'HTML5',
       level: 100,
@@ -165,16 +151,30 @@ export class SkillsComponent {
     },
     {
       name: 'CSS3',
-      level: 90,
+      level: 100,
       iconPath:
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
       categories: ['frontend'],
     },
     {
-      name: 'TailwindCSS',
+      name: 'Angular',
       level: 80,
       iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg',
+      categories: ['frontend'],
+    },
+    {
+      name: 'Astro',
+      level: 80,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg',
+      categories: ['frontend'],
+    },
+    {
+      name: 'React',
+      level: 70,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
       categories: ['frontend'],
     },
     {
@@ -185,17 +185,17 @@ export class SkillsComponent {
       categories: ['frontend'],
     },
     {
+      name: 'TailwindCSS',
+      level: 100,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
+      categories: ['frontend'],
+    },
+    {
       name: 'BulmaCSS',
       level: 70,
       iconPath:
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bulma/bulma-plain.svg',
-      categories: ['frontend'],
-    },
-    {
-      name: 'Astro',
-      level: 60,
-      iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg',
       categories: ['frontend'],
     },
 
@@ -215,10 +215,10 @@ export class SkillsComponent {
       categories: ['backend'],
     },
     {
-      name: 'Flask',
-      level: 65,
+      name: 'Nest.js',
+      level: 60,
       iconPath:
-        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original-wordmark.svg',
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg',
       categories: ['backend'],
     },
     {
@@ -307,9 +307,16 @@ export class SkillsComponent {
     },
     {
       name: 'Jest',
-      level: 70,
+      level: 80,
       iconPath:
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg',
+      categories: ['tools'],
+    },
+    {
+      name: 'Vitest',
+      level: 70,
+      iconPath:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitest/vitest-plain.svg',
       categories: ['tools'],
     },
     {
